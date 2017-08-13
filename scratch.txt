@@ -1,0 +1,23 @@
+initial deployment looks good
+
+start mq
+ - $ bash /usr/local/bin/apache-activemq-5.15.0/bin/activeme start
+stop mq
+ - $ bash /usr/local/bin/apache-activemq-5.15.0/bin/activeme stop
+view mq ques (hawtio deployed to server && running)
+ - http://localhost:8080/hawtio-default-1.5.3/welcome
+
+view front end (app deployed to server && running)
+ - http://localhost:8080/order-fulfillment-processor/orderHome
+ 
+ =====================  action steps ====================
+ 
+ 
+ 
+ 
+ 
+ 
+ ======================  notes & errors  ==========================
+ 
+ 
+ 
