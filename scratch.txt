@@ -11,6 +11,12 @@ view front end (app deployed to server && running)
  - http://localhost:8080/order-fulfillment-processor/orderHome
  
  =====================  action steps ====================
+ commit 0 - rollback commit
+ commit 1 - add gems
+ 	org.apache.camel :: camel-spring :: 2.15.3
+ 	org.apache.camel :: camel-spring-javaconfig :: 2.15.3
+ 	org.apache.camel :: camel-test-spring :: 2.15.3 :: test
+ 	**bumped version up slightly from example so everything uses spring 4.x.x
  
  
  
