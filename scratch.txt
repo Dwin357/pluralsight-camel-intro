@@ -17,13 +17,21 @@ view front end (app deployed to server && running)
  	org.apache.camel :: camel-spring-javaconfig :: 2.15.3
  	org.apache.camel :: camel-test-spring :: 2.15.3 :: test
  	**bumped version up slightly from example so everything uses spring 4.x.x
- 
+ commit 2 - basic file transfer
+ 	change order-fulfillment.properties in/out folder to point to sub-folder in project
+ 	
  
  
  
  
  
  ======================  notes & errors  ==========================
- 
+ MAVEN DEPENDENCIES DONT APPEAR WHEN TRYING TO ADD TO DEPLOYMENT BUILD PATH
+  - right click project -> maven -> update project
+  - right click project -> properties -> deployment assembly -> add -> build path entries -> next -> maven
+  
+ Tomcat frequently timeing out on boot (45 sec)
+  - right click server -> expand "Timeouts" section -> bump to 70 sec 
+  
  
  
