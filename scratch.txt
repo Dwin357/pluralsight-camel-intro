@@ -19,7 +19,14 @@ view front end (app deployed to server && running)
  	**bumped version up slightly from example so everything uses spring 4.x.x
  commit 2 - basic file transfer
  	change order-fulfillment.properties in/out folder to point to sub-folder in project
- 	
+ 	copied sample code into IntegrationConfig.java file
+
+(untested for lack of internet / maven errors) 	
+commit 3 - add sql adapter component
+	add gem :: or.apache.camel :: camel-sql :: 2.15.3
+	In integration config - remove file xfr code (just a test) 
+	add sql fetcher
+	
  
  
  
@@ -33,5 +40,10 @@ view front end (app deployed to server && running)
  Tomcat frequently timeing out on boot (45 sec)
   - right click server -> expand "Timeouts" section -> bump to 70 sec 
   
+ Maven failed to transfer
+  - wipe local maven and reinstall
+  - find ~/.m2  -name "*.lastUpdated" -exec grep -q "Could not transfer" {} \; -print -exec rm {} \;
+  - maven -> rebuild index of local repo
+  - maven -> project update
  
  

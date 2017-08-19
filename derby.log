@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Aug 19 19:01:09 EDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-015d-fcba-8942-0000039748d8 
+on database directory memory:/home/dwin/projects/apache/camel/pluralsight-camel-intro/orders with class loader sun.misc.Launcher$AppClassLoader@6d03e736 
+Loaded from file:/home/dwin/.m2/repository/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_144-b01
+user.dir=/home/dwin/projects/apache/camel/pluralsight-camel-intro
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-92-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
